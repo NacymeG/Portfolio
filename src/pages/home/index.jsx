@@ -40,25 +40,29 @@ export default function Home() {
         <Arrow />
       </a>
       <Mail>
-        <a href='mailto:Nacyme.gallel@gmail.com'>
+        <a
+          href='mailto:Nacyme.gallel@gmail.com'
+          target='_blank'
+          rel='noreferrer'
+        >
           <span> Nacyme.gallel@gmail.com </span>
         </a>
         ______________
       </Mail>
       <Social>
-        <a href='www.github.com'>
+        <a href='https://www.github.com' target='_blank' rel='noreferrer'>
           <Github />
         </a>
-        <a href='www.linkedin.com'>
+        <a href='https://www.linkedin.com' target='_blank' rel='noreferrer'>
           <Linkedin />
         </a>
-        <a href='www.twitter.com'>
+        <a href='https://www.twitter.com' target='_blank' rel='noreferrer'>
           <Twitter />
         </a>
-        <a href='www.instagram.com'>
+        <a href='https://www.instagram.com' target='_blank' rel='noreferrer'>
           <InstagramLogo />
         </a>
-        <a href='www.instagram.com'>
+        <a href='http://localhost:3010' target='_blank' rel='noreferrer'>
           <GearLogo />
         </a>
         <hr width='50px' />
