@@ -1,11 +1,12 @@
+import Navbar from './Components/Navbar';
+import Home from './Pages/Home';
+
+import './style.css';
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <p>
-          Edit <code>src/App.js</code> and save to reload...
-        </p>
-      </header>
+      <Navbar />
+      <Home />
     </div>
   );
 }
